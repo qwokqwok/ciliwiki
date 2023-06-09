@@ -1,0 +1,86 @@
+form{
+    padding: 10px;
+    border: 5px black solid;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template: 1 auto ;
+}
+
+div.tengah{
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.login{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.login:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.login.tamu{
+    text-decoration: none;    
+}
+
+.login.tamu:hover{
+    color: black;    
+}
+
+.logout{
+    display: none;
+}
+
+.utama{       
+    padding: 20px 150px 0px 150px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.isi{
+    padding: 10px;
+    width: 84%;
+}
+.isi > div{
+    padding:20px;
+}
+
+.sidenav{
+    padding-top: 20px; 
+    background: black;
+}
+
+.sidenav a{
+    background: none;
+    color: whitesmoke;
+    border: 0px;
+}
+.list-group-item.active{
+    font-size: 200%;
+    background:none;
+}
+
+img{
+    width: 300px;
+    height: 600px;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    border: black solid;
+}
+
+td{
+    border: black solid;
+    width: 25%;
+}
